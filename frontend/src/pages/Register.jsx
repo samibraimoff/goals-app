@@ -2,7 +2,7 @@ import React, { useState, useEffect, Fragment } from 'react';
 import { FaUser } from 'react-icons/fa';
 
 const Register = () => {
-  const [formData, setFormDta] = useState({
+  const [formData, setFormData] = useState({
     name: '',
     email: '',
     password: '',
@@ -12,7 +12,7 @@ const Register = () => {
   const { name, email, password, password2 } = formData;
 
   const onChange = (e) => {
-    setFormDta((prevState) => ({
+    setFormData((prevState) => ({
       ...prevState,
       [e.target.name]: e.target.value,
     }));
