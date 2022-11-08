@@ -7,7 +7,7 @@ const Header = () => {
     <Fragment>
       <header className='header'>
         <div className='logo'>
-          <Link to='/'>GoalSetter</Link>
+          <Link to='/'>GoalSetterAPP</Link>
         </div>
         <ul>
           <li>
